@@ -1,20 +1,19 @@
 = Open Nitnem Banis =
-When creating the Sundar Gutka apps for both the Blackberry and Playbook devices one of the main obstacles was actually collecting and putting and compiling all these banis together. While there are many versions of the Sikh Nitnem scattered around the internet it’s hard to find one complete and open collection, which served all the needs for the above projects.
+When creating the Sundar Gutka apps for both the Blackberry and Playbook devices one of the main obstacles was actually collecting and putting and compiling all these banis together. While there are many versions of the Sikh Nitnem scattered around the internet it's hard to find one complete and open collection, which served all the needs for the above projects.
 
-The problem is now is maintaining this collection, in that there are plenty of spelling errors to go around. To better then this I’ve opened a git hub repo atthat others can make use and help in improving and correcting this current set.
+The problem is now is maintaining this collection, in that there are plenty of spelling errors to go around. To better then this I've opened a git hub repo atthat others can make use and help in improving and correcting this current set.
 
-== Format ==
+= Format =
 
-Some may question the non-use of xml but the truth is, xml is overweight for this task and would only increase the difficulty for non-programmer / techi’s to contribute. Also the current format is simple enough that really doesn’t require that degree of markup. That being said there is some markup to be noted:
+Some may question the non-use of xml but the truth is, xml is overweight for this task and would only increase the difficulty for non-programmer / techi's to contribute. Also the current format is simple enough that really doesn't require that degree of markup. That being said there is some markup to be noted:
 
-# Each gurbani file is currently typed to be used with the '[http://www.sikhnet.com/files/fonts/gurbaniwebthick.ttf GurbaniWebThick]' and '[http://www.sikhnet.com/sikhnet/register.nsf/6f000b70505976458725743400619f7b/bfece158fb98b70a8725668e006541a2/$FILE/GurbaniAkhar.zip GurbaniAkhar]' type-faces. These can both be downloaded from the [http://Sikhnet.com Sikhnet.com] font page here: http://www.sikhnet.com/Gurmukhi-Fonts
-#* While I’m all for utf8, I've found very few great looking utf8 compatible font-faces for the the Gurmuhki type set. Where as I've found the above mentioned fonts to be some of the more friendliest when used on devices. Also it was a lot easier and time effective to find and compile banis using the above typefaces.
+# Each gurbani file is currently typed to be used with the [http://www.sikhnet.com/files/fonts/gurbaniwebthick.ttf ''GurbaniWebThick'' ]and [http://www.sikhnet.com/sikhnet/register.nsf/6f000b70505976458725743400619f7b/bfece158fb98b70a8725668e006541a2/$FILE/GurbaniAkhar.zip ''GurbaniAkhar'' ]type-faces. These can both be downloaded from the[http://www.sikhnet.com/Gurmukhi-Fonts  Sikhnet.com font page here.] While I'm all for utf8, I found <del>very few</del> noï¿½great looking utf8 compatible font-faces for the the Gurmuhki type set. Where as I found the above mentioned fonts to be some of more friendly when used on devices. Also it was a lot easier and time effective to find and compile banis using the above typefaces.
 # Each bani file at the top needs to include the following two header lines, and there purpose should be self explanatory:
-#:  Title Gurmukhi: jp jI swihb
-#:  Title Roman: Jap Ji Sahib
+ Title Gurmukhi: jp jI swihb
+ Title Roman: Jap Ji Sahib
 # Each line should be entered on its own unique line, rather then in continuous paragraph form. This makes it easier later on for individual apps to reformat however they see fit.
-# Sections (Shabads/Pauree’s) formatted by using a normal line break between each to separate, again this gives programmers flexibility to later reformat and layout the banis however they see best.
-Headers/Titles should be indicated by the use of a single tab. Again this can be used by developers to indicate and format header sections accordingly.
+# Sections (Shabads/Pauri's) formatted by using a normal line break between each toï¿½separate, again this gives programmers flexibility to later reformat and layout the banis however they see best.
+# Headers/Titles should be indicated by the use of a single tab. Again this can be used by developers to indicate and format header sections accordingly.
 
 == More / Info Home Page ==
 More information for this project can be found at http://ss44.ca/projects-2/open-nitnem-bani/
